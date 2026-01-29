@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* ======= Configuração global ======= */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ======= Cabeçalho ======= */
+.heading {
+    background: linear-gradient(90deg, #005792, #0078c4);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.heading h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* ======= Container principal ======= */
+.main-container {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 25px;
+    margin-top: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    flex: 1;
+}
+
+/* ======= Títulos ======= */
+h2 {
+    font-weight: 600;
+    color: #005792;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* ======= Botões ======= */
+.btn-primary {
+    background-color: #0078c4;
+    border: none;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #005f99;
+    transform: scale(1.05);
+}
+
+.btn-sm {
+    border-radius: 6px;
+    margin: 2px;
+    transition: all 0.2s ease;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+    color: #333;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    transform: scale(1.1);
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    transform: scale(1.1);
+}
+
+/* ======= Tabela ======= */
+.table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 20px;
+}
+
+.table thead {
+    background: #0078c4;
+    color: #fff;
+}
+
+.table th,
+.table td {
+    text-align: center;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+}
+
+.table tbody tr:hover {
+    background-color: #eef7ff;
+}
+
+/* ======= Modal ======= */
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.modal-header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* ======= Rodapé ======= */
+.footer {
+    background-color: #005792;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: auto;
+}
+
+/* ======= Responsividade ======= */
+@media (max-width: 768px) {
+    .heading h1 {
+        font-size: 1.8rem;
+    }
+
+    .main-container {
+        padding: 15px;
+    }
+
+    .table th,
+    .table td {
+        font-size: 0.9rem;
+    }
+
+    .btn-primary {
+        font-size: 0.9rem;
+        padding: 6px 12px;
+    }
+}
