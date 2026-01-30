@@ -5,7 +5,7 @@ Sistema Web desenvolvido com **Flask + MySQL**, seguindo boas práticas de **seg
 ---
 
 ## 🖼️ Demonstração
-<p align="center"> <img src="Crud1.JPG" width="700"/> <br><br> <img src="Crud2.JPG" width="700"/>  <br><br> <img src="Crud3.JPG" width="700"/></p>
+<p align="center"> <img src="Crud1.jpg" width="700"/> <br><br> <img src="Crud2.jpg" width="700"/>  <br><br> <img src="Crud3.jpg" width="700"/></p>
 
 
 
@@ -145,6 +145,7 @@ Desenvolvedor Full Stack |
 Análise e Desenvolvimento de Sistemas
 Projeto acadêmico e portfólio prático com Flask, banco de dados e deploy em nuvem.
 ---
+
 
 
 
